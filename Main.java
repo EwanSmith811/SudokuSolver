@@ -15,8 +15,7 @@ class SudokuSolver {
                 {0, 0, 0, 0, 0, 0, 0, 0, 0}
         };
         String puzzle = "";
-        System.out.println("Type or paste the desired 9x9 board to be solved with spaces in between numbers and" +
-                " making a new line for each row");
+        System.out.println("Type or paste the desired 9x9 board to be solved with spaces in between numbers, 0's for blanks, and a new line for each row")
         for(int i = 0; i < BOARD_SIZE;i++)
         {
             puzzle += scan.nextLine();
